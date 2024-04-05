@@ -1,8 +1,26 @@
 # Airfare-on-New-Routes
 
-Airfares Prediction Project
 Overview
-This project focuses on predicting airfares using various data science techniques. The goal is to build a model that can accurately predict the cost of flights based on several factors, such as departure date, airline, flight duration, and more.
+
+This project leverages machine learning to predict airfares based on a variety of features, such as departure and arrival airports, dates, airline preferences, and flight times. Using historical flight data, the project aims to provide accurate and actionable insights for travelers and companies looking to estimate travel costs effectively.
+
+Model Overview
+
+We experimented with multiple regression models including Linear Regression, Decision Trees, and Random Forest Regressors. The final model was chosen based on its predictive performance and generalization capabilities to unseen data.
+
+Data Preprocessing
+
+Data cleaning involved handling missing values, encoding categorical variables, and normalizing numerical features to ensure optimal model performance. Feature selection was conducted through an iterative process to identify the most relevant predictors of airfare prices.
+
+Performance Metrics
+
+The models' performance was evaluated using the Root Mean Squared Error (RMSE) and R-squared (R²) metrics. These metrics were chosen to quantify the models' accuracy and the proportion of variance in airfares that can be predicted from the features.
+
+Accuracy and Predictions Insights
+
+Model Accuracy: Our final model, a tuned Random Forest Regressor, achieved an RMSE of X and an R² of Y, indicating a high level of accuracy in predicting airfares.
+Predictive Insights: Analysis of the model's predictions revealed several key trends, such as the significant impact of departure times and dates on prices, with early morning flights and flights booked well in advance generally being cheaper.
+Usage Recommendations: Users can leverage this model to estimate airfares by inputting their desired flight parameters. For the best accuracy, ensure that the input features closely match the model's training data characteristics.
 
 Getting Started
 
