@@ -6,7 +6,7 @@ This project leverages machine learning to predict airfares based on a variety o
 
 Model Overview
 
-We experimented with multiple regression models including Linear Regression, Decision Trees, and Random Forest Regressors. The final model was chosen based on its predictive performance and generalization capabilities to unseen data.
+We experimented with multiple regression models including Linear Regression, Statsmodel. The final model was chosen based on its predictive performance and generalization capabilities to unseen data.
 
 Data Preprocessing
 
@@ -18,7 +18,7 @@ The models' performance was evaluated using the Root Mean Squared Error (RMSE) a
 
 Accuracy and Predictions Insights
 
-Model Accuracy: Our final model, a tuned Random Forest Regressor, achieved an RMSE of X and an R² of Y, indicating a high level of accuracy in predicting airfares.
+Model Accuracy: Our final model, a tuned Statsmodel, achieved an RMSE of X and an R² of Y, indicating a high level of accuracy in predicting airfares.
 Predictive Insights: Analysis of the model's predictions revealed several key trends, such as the significant impact of departure times and dates on prices, with early morning flights and flights booked well in advance generally being cheaper.
 Usage Recommendations: Users can leverage this model to estimate airfares by inputting their desired flight parameters. For the best accuracy, ensure that the input features closely match the model's training data characteristics.
 
