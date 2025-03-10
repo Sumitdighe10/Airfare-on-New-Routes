@@ -7,10 +7,12 @@ This project leverages machine learning to predict airfares based on a variety o
 Model Overview
 
 We experimented with multiple regression models including Linear Regression, Statsmodel. The final model was chosen based on its predictive performance and generalization capabilities to unseen data.
+![dashboard](Screenshot%202025-03-10%20004552.png)
 
 Data Preprocessing
 
 Data cleaning involved handling missing values, encoding categorical variables, and normalizing numerical features to ensure optimal model performance. Feature selection was conducted through an iterative process to identify the most relevant predictors of airfare prices.
+![dashboard](Screenshot%202025-03-10%20004626.png)
 
 Performance Metrics
 
