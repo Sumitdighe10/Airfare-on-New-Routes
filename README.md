@@ -22,6 +22,8 @@ Model Accuracy: Our final model, a tuned Statsmodel, achieved an RMSE of X and a
 Predictive Insights: Analysis of the model's predictions revealed several key trends, such as the significant impact of departure times and dates on prices, with early morning flights and flights booked well in advance generally being cheaper.
 Usage Recommendations: Users can leverage this model to estimate airfares by inputting their desired flight parameters. For the best accuracy, ensure that the input features closely match the model's training data characteristics.
 
+![dasboard](Screenshot%202025-03-10%20004641.png)
+
 Getting Started
 
 Prerequisites
